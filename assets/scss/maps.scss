@@ -1,0 +1,15 @@
+$letrasfooter:(
+almuerzo:red,
+cerveza:green,
+desayunos:yellow,
+
+);
+.desayuno{
+    color: map-get($map: $letrasfooter, $key: desayunos);
+}
+.birra{
+    color: map-get($letrasfooter,cerveza);
+}
+.comida{
+    color: map-get( $letrasfooter,  almuerzo);
+}

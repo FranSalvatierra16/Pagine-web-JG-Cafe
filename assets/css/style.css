@@ -1,4 +1,39 @@
 @charset "UTF-8";
+.botonss, .botonss2 {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  text-align: center; }
+  .botonss:hover, .botonss2:hover {
+    filter: opacity(85%);
+    color: white;
+    background-color: black; }
+
+.botonss2 {
+  background-color: white;
+  color: black; }
+
+.imageneschicas {
+  width: 50px;
+  height: 50px; }
+
+.imagenesmedianas {
+  width: 100px;
+  height: 100px; }
+
+.imagenesgrandes {
+  width: 200px;
+  height: 20S0px; }
+
+.desayuno {
+  color: yellow; }
+
+.birra {
+  color: green; }
+
+.comida {
+  color: red; }
+
 body {
   background-image: url(../../img/fondocafe.jpg);
   background-size: cover;

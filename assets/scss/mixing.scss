@@ -1,0 +1,14 @@
+@mixin img($height,$width) {
+    width: $width;
+    height: $height;
+    
+}
+.imageneschicas{
+    @include img(50px,50px);
+}
+.imagenesmedianas{
+    @include img(100px,100px);
+}
+.imagenesgrandes{
+    @include img(20S0px,200px);
+}

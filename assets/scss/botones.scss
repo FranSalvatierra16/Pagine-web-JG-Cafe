@@ -1,0 +1,17 @@
+.botonss{
+
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    &:hover{
+        filter: opacity(85%);
+        color: white;
+        background-color: black;
+    }
+}
+.botonss2{
+    @extend .botonss;
+    background-color: white;
+    color: black;
+}
